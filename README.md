@@ -8,3 +8,4 @@ This repository demonstrates a small prototype for a personalized love-letter ge
 - `data/`: Placeholder directory for user-provided love letters and open-license romantic text.
 
 The approach focuses on training with user permission and publicly available datasets.
+

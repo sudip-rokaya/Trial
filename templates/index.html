@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Letter Generator</title>
+</head>
+<body>
+    <h1>Love Letter Generator</h1>
+    <form action="/generate" method="post">
+        <textarea name="user_text" rows="10" cols="60" placeholder="Paste your text or previous love letters here"></textarea><br/>
+        <button type="submit">Generate Letter</button>
+    </form>
+    {% if generated %}
+        <h2>Generated Letter</h2>
+        <pre>{{ generated }}</pre>
+    {% endif %}
+</body>
+</html>
